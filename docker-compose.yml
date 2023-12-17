@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    image: arsquid/a-t_3
+    build:
+      context: .
+    ports:
+      - "443:443"
+    command: /usr/src/a-t_3/a-t_3
